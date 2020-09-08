@@ -1,0 +1,66 @@
+.container{
+ 
+    button{
+        background-color:   #3ac574 ;
+        font-size: 70px;
+
+        border: 5px solid  #1e8449;
+        width: 6em;
+        border-radius: 10ex;  
+
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+        display: flex;
+      
+        a{
+            margin-left: auto;
+            margin-right: auto;
+            align-self: center;
+            display: flex;
+
+            color:  rgb(26, 16, 5);
+            font-family: Perpetua Titling MT;
+            font-weight: bold;
+            font-style:bold;
+        }
+    }
+    button:hover{
+       // color:#1e8449;
+        background: #fdedec;
+        border: 5px solid #f5b7b1;
+      //  transition: all 0.3s ease 0s;
+    }
+    img{
+        padding: 20px;
+        margin: auto;
+        
+        max-width: 40em; 
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+        display: flex;
+       // flex-direction: row; //default value
+        align-items: center;
+
+      
+    }
+    .text{
+    
+        display: flex;
+        flex-direction: row; //default value
+        align-items: center;
+        p{
+        font-family: Roboto;
+        font-size: 20px;
+        width: 500px;
+        border: 15px solid #1e8449;
+        padding: 25px;
+        margin: 20px;
+        }
+    }
+ 
+    
+        
+    
+}

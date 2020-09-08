@@ -1,0 +1,32 @@
+.container {
+    height: 160px;
+    width: 100vw;
+  
+   // background-color: rgb(204, 204, 231);
+    background-color:#fff4e3;
+    display: flex;
+    flex-direction: row; //default value
+    align-items: center;
+    justify-content: space-evenly;
+  
+    .link {
+      text-decoration: none;
+      color: #0F1928;
+    //  font-weight: bold;
+     // letter-spacing: 0.6px;
+       font-family: Perpetua Titling MT;
+       font-weight: bold;
+      font-size: 1.2em;
+
+    }
+    button{
+      border:none;
+      background-color: #fff4e3;
+    }
+  }
+  .container img {
+    //position: absolute;
+    height: auto;
+    width: 35vh;
+    object-fit: cover;
+  }

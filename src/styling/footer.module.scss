@@ -1,0 +1,41 @@
+.container {
+    height: auto;
+    width: 100vw;
+    
+    //justify-content: space-evenly;
+   
+
+   // justify-content: baseline;
+    background-color: #fff4e3;
+    //padding: 0.3em;
+    text-decoration: none;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+     font-family: Roboto;
+    color: #0F1928;
+    font-weight: 200;
+    letter-spacing: 0.6px;
+    font-size: 1.1em;
+
+    
+
+    display: flex;
+    flex-direction: column; //default value
+    align-items: center;
+    //justify-content: right;
+
+    button{
+      border:none;
+      background-color: #fff4e3;
+      padding: 1em;
+    }
+
+  }
+  .container img {
+    //position: absolute;
+    padding: 4em;
+    height: auto;
+    width: 35vh;
+    object-fit: cover;
+  }
